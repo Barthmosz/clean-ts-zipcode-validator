@@ -11,4 +11,9 @@ describe('ZipCode Validator', () => {
         const sut = makeSut()
         expect(sut.validate('1234')).toBe(false)
     })
+
+    test('should returns false if an empty zip code is provided', () => {
+        const sut = makeSut()
+        expect(sut.validate('')).toBe(false)
+    })
 })
