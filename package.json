@@ -1,25 +1,26 @@
 {
-  "name": "clean-ts-lib",
-  "version": "1.0.0",
-  "description": "Template for clean (TypeScript) library",
+  "name": "clean-zipcode-validator",
+  "version": "0.0.0",
+  "description": "A simple and clean zip code validator",
   "keywords": [
-    "clean",
-    "library",
-    "typescript"
+    "zip code",
+    "zip",
+    "validator",
+    "validation"
   ],
-  "homepage": "https://github.com/Barthmosz/clean-ts-lib",
+  "homepage": "https://github.com/Barthmosz/clean-ts-zipcode-validator",
   "bugs": {
-    "url": "https://github.com/Barthmosz/clean-ts-lib/issues"
+    "url": "https://github.com/Barthmosz/clean-ts-zipcode-validator/issues"
   },
   "license": "MIT",
   "author": "Barthmosz (https://github.com/Barthmosz)",
   "files": [
     "./dist"
   ],
-  "main": "./dist/example.js",
+  "main": "./dist/zipcode-validator.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Barthmosz/clean-ts-lib"
+    "url": "https://github.com/Barthmosz/clean-ts-zipcode-validator"
   },
   "scripts": {
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
